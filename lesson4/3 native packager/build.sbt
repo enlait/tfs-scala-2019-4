@@ -1,6 +1,6 @@
 scalaVersion := "2.12.6"
-organization := "ru.tinkoff"
-name := "sbt_native_packager_example"
+organization := "ru.example"
+name := "example"
 version := "0.1.0"
 
 libraryDependencies ++= Seq(
@@ -9,6 +9,6 @@ libraryDependencies ++= Seq(
   "org.backuity.clist" %% "clist-macros" % "3.4.0" % "provided"
 )
 
-enablePlugins(JavaAppPackaging, DockerPlugin)
+enablePlugins(JavaAppPackaging)
 
 executableScriptName := "greet"
