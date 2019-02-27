@@ -1,2 +1,3 @@
 `sbt stage`
-`sbt universal:packageZip`
+
+`sbt universal:packageBin`
